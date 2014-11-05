@@ -1,0 +1,30 @@
+﻿Build started 28/10/2014 19:30:19.
+     1>Project "C:\Users\Leonardo\Desktop\UBC\EECE314\Assignments\1\Assignment1_Chevron\Pump1\Pump1.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Customer.cpp ..\Pump.cpp Pump1.cpp
+         Pump1.cpp
+     1>c:\users\leonardo\desktop\ubc\eece314\assignments\1\assignment1_chevron\pump.h(17): warning C4091: 'typedef ' : ignored on left of 'pumpStatus' when no variable is declared
+     1>c:\users\leonardo\desktop\ubc\eece314\assignments\1\assignment1_chevron\pump.h(24): warning C4091: 'typedef ' : ignored on left of 'customerStatus' when no variable is declared
+     1>c:\users\leonardo\desktop\ubc\eece314\assignments\1\assignment1_chevron\pump.h(29): warning C4091: 'typedef ' : ignored on left of 'fuelTankStatus' when no variable is declared
+         Pump.cpp
+     1>c:\users\leonardo\desktop\ubc\eece314\assignments\1\assignment1_chevron\pump.h(17): warning C4091: 'typedef ' : ignored on left of 'pumpStatus' when no variable is declared
+     1>c:\users\leonardo\desktop\ubc\eece314\assignments\1\assignment1_chevron\pump.h(24): warning C4091: 'typedef ' : ignored on left of 'customerStatus' when no variable is declared
+     1>c:\users\leonardo\desktop\ubc\eece314\assignments\1\assignment1_chevron\pump.h(29): warning C4091: 'typedef ' : ignored on left of 'fuelTankStatus' when no variable is declared
+     1>c:\users\leonardo\desktop\ubc\eece314\assignments\1\assignment1_chevron\pump.cpp(95): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\leonardo\desktop\ubc\eece314\assignments\1\assignment1_chevron\pump.cpp(96): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\leonardo\desktop\ubc\eece314\assignments\1\assignment1_chevron\pump.cpp(97): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\leonardo\desktop\ubc\eece314\assignments\1\assignment1_chevron\pump.cpp(98): warning C4305: 'initializing' : truncation from 'double' to 'float'
+         Customer.cpp
+         Generating Code...
+     1>c:\users\leonardo\desktop\ubc\eece314\assignments\1\assignment1_chevron\pump.cpp(93): warning C4715: 'Pump::getFuelPrice' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Leonardo\Desktop\UBC\EECE314\Assignments\1\Assignment1_Chevron\Debug\Pump1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Leonardo\Desktop\UBC\EECE314\Assignments\1\Assignment1_Chevron\Debug\Pump1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Leonardo\Desktop\UBC\EECE314\Assignments\1\Assignment1_Chevron\Debug\Pump1.lib" /MACHINE:X86 Debug\Customer.obj
+         Debug\Pump.obj
+         Debug\rt.obj
+         Debug\Pump1.obj
+         Pump1.vcxproj -> C:\Users\Leonardo\Desktop\UBC\EECE314\Assignments\1\Assignment1_Chevron\Debug\Pump1.exe
+     1>Done Building Project "C:\Users\Leonardo\Desktop\UBC\EECE314\Assignments\1\Assignment1_Chevron\Pump1\Pump1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.38
